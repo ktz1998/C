@@ -11,6 +11,17 @@
 
 int main(void)
 {
-    printf("Hello World");
+    printf("Hello\n");
+    printf("World\n");
+    printf("Hello\nworld\n");
+    
+    printf("Windows\tMicrosoft\n");
+    printf("MacOS\tApple\n");
     return 0;
 }
+
+/*C言語のプログラムで改行を行うには、エスケープシーケンスを使います。
+エスケープシーケンスの1つに \n があり、これが改行を表すことになっています。
+キーワード【エスケープシーケンス】
+ →画面に表示出来ない制御を行うために使われる特殊文字。
+ 改行文字以外では、頭揃えのためにタブを挿入する \t がよく使われます。*/
