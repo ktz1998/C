@@ -7,4 +7,5 @@ int main(void)
     value += 30;
     printf("%d\n", value);
     return 0;
+    
 }
